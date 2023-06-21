@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+    font-family: "Lato", sans-serif;
+    background-color: #F7F7F7;
+
+
+    .title{
+        text-align: center;
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+        .heading{
+            font-size: 2.5rem;
+            color: #4A4A4A;
+        }
+        .foot{
+            color: #4A4A4A;
+            font-weight: 300;
+        }
+    }
+    .boxes{
+        display: flex;
+        gap: 2em;
+        .box-1{
+            cursor: pointer;
+            
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            padding: 3em 1em 3em 1em;
+            gap: 2em;
+
+            border-radius: 8px;
+
+            .sub{
+                display: flex;
+                align-items: flex-start;
+                gap: 2em;
+                font-size: 1.4rem;
+                justify-content: center;
+                font-weight: 200;
+                h1{
+                  line-height: 2em;
+                }
+            }
+            .sub-2{
+                display: flex;
+                gap: 5em;
+                .cont{
+                    display: flex;
+                    align-items: center;
+                    gap: 1em;
+                    .texts{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 0.4em;
+                        .name{
+                            font-size: 1.5rem;
+                        }
+
+                    }
+                 
+                }
+            }
+
+        }
+        .img{
+            width: 4em;
+            height: 4em;
+            aspect-ratio: 3/2;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+}

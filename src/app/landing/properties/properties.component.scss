@@ -1,0 +1,175 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    align-items: center;
+    height: 140vh;
+    gap: 3em;
+  
+    .box-1 {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 1.3em;
+      h2{
+          font-size: 2.5rem;
+          color: #4A4A4A;
+      }
+      .sub{
+          font-size: 1.4rem;
+          font-weight: 200;
+          color: #4A4A4A;
+      }
+    }
+    .box-2 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 2em;
+     
+  
+  
+      .cards {
+        display: flex;
+        flex-direction: column;
+        width: 19em;
+        height: 21em;
+        gap: 1em;
+        position: relative;
+  
+        .img {
+          border-radius: 7px;
+          height: 12em;
+         
+        }
+        .texts {
+          display: flex;
+          flex-direction: column;
+          gap: 0.6em;
+        }
+        .sales {
+          position: absolute;
+          display: flex;
+          background: green;
+          width: 5em;
+          height: 1.8em;
+          border-radius: 0 3px 3px 0;
+          align-items: center;
+          justify-content: center;
+          gap: 0.4em;
+          top: 1em;
+  
+          .tag {
+            font-size: 0.8rem;
+            color: white;
+            background-color: green;
+          }
+          h1 {
+            font-size: 0.7rem;
+            color: white;
+            font-weight: 100;
+          }
+        }
+        .img-down {
+          display: flex;
+          justify-content: space-around;
+          position: absolute;
+          top: 9em;
+          color: white;
+          width: 19em;
+          .box-1 {
+            display: flex;
+            flex-direction: row;
+            gap: 0.3em;
+            .loc{
+              font-size: 1rem;
+            }
+            h1{
+              font-size: 0.8rem;
+            }
+          }
+          .box-2 {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5em;
+            align-items: center;
+            .vid{
+              font-size: 1.3rem;
+            }
+            .cam{
+              font-size: 0.8rem;
+            }
+          }
+  
+        }
+  
+        .text-1 {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h1 {
+            font-size: 0.9rem;
+          }
+          .star {
+            display: flex;
+            align-items: center;
+            gap: 0.5em;
+            .starr {
+              color: gold;
+              font-size: 1.4rem;
+            }
+            .rating {
+              color: gray;
+              font-size: 0.7rem;
+            }
+          }
+        }
+        .text-2 {
+          display: flex;
+          flex-direction: column;
+          gap: 0.6em;
+          color: #6e6e6e;
+          .box-1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 0.6em;
+            font-size: 0.8rem;
+            .b {
+              font-size: 1rem;
+              h1{
+                 font-size: 0.6rem;
+              }
+            }
+          }
+          .box-2 {
+            font-size: 1.3rem;
+            display: contents;
+          }
+        }
+       
+      }
+      
+    }
+    .btn{
+      
+      .bt{
+          padding: 1em 2em 1em 2em;
+          border:2.3px solid #FD683E;
+          color: #FD683E;
+          background-color: white;
+          border-radius: 5px;
+          font-weight: 520;
+          cursor: pointer;
+          &:hover{
+              background-color:#FD683E ;
+              color: white;
+          }
+  
+        
+      }
+  }
+  }
+  

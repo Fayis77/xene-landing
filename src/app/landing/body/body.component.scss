@@ -1,0 +1,191 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    .box-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      gap: 5em;
+  
+      .logo {
+        font-size: 2rem;
+        .img {
+          width: 5em;
+        }
+      }
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+        .main-head {
+          font-size: 2.4rem;
+          color: #4a4a4a;
+        }
+        .para {
+          opacity: 0.4;
+          color: #4a4a4a;
+        }
+        .btn {
+          padding: 1em 2.5em 1em 2.5em;
+          border: none;
+          border-radius: 5px;
+          background: none;
+          border: 2px solid #fd683e;
+          color: #fd683e;
+          font-weight: 600;
+          font-size: 1rem;
+          &:hover {
+            background-color: #fd683e;
+            color: white;
+          }
+        }
+      }
+    }
+    .box-3 {
+      height: 100vh;
+      display: flex;
+      align-items: flex-end;
+      .first {
+        width: 28em;
+      }
+      .fourth {
+        width: 30em;
+      }
+      .second {
+        width: 17em;
+        position: relative;
+        right: 5em;
+        bottom: 2em;
+      }
+      .third {
+        width: 19em;
+        position: relative;
+        right: 4em;
+      }
+    }
+  }
+  .header-foot {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    flex-direction: column;
+    font-size: 1.5rem;
+    background-color: #f6f6f6;
+    z-index: -2;
+    // background-color: #F6F6F6;
+    .main-box {
+      display: flex;
+      flex-direction: column;
+  
+      .box-1 {
+        display: flex;
+        position: absolute;
+        justify-content: flex-start;
+        border-bottom: none;
+        align-items: flex-start;
+        border-radius: 5px 5px 0 0;
+        border: none;
+        z-index: -1;
+        top: 2.3em;
+  
+        a {
+          text-decoration: none;
+        }
+        h1 {
+          border: 1.5px solid gray;
+        }
+        .btn-1 {
+          padding: 0.6em 1.5em 0.6em 1.5em;
+          font-size: 1.3rem;
+          border-left: none;
+          border-top: none;
+          border-bottom: none;
+          border-right: none;
+          color: white;
+          border: 1.5px solid #e6e6e6;
+  
+          background-color: #fd683e;
+          border-radius: 9px 0 0 0;
+        }
+        .btn-2 {
+          border: 1.5px solid #e6e6e6;
+          padding: 0.6em 1.5em 0.6em 1.5em;
+          font-size: 1.3rem;
+          border-left: none;
+          border-bottom: none;
+          border-radius: 0 9px 0 0;
+          background-color: white;
+        }
+      }
+      .box-2 {
+        border: 2px solid #e6e6e6;
+        display: flex;
+        align-items: center;
+        width: 49em;
+        border-radius: 9px;
+        background-color: #ffffff;
+        justify-content: space-between;
+        height: 13vh;
+  
+        .sub-1 {
+          font-weight: 200;
+          height: 8vh;
+          width: 13em;
+          gap: 1em;
+          display: flex;
+          align-items: center;
+  
+          border: 2px solid #e6e6e6;
+          border-top: none;
+          border-bottom: none;
+          border-left: none;
+        }
+        .sub-2 {
+          width: 8em;
+          gap: 0.5em;
+  
+          justify-content: space-around;
+  
+          display: flex;
+          flex-direction: column;
+  
+          border: 1.5px solid #e6e6e6;
+          border-top: none;
+          border-bottom: none;
+          border-left: none;
+  
+          .super-sub {
+            display: flex;
+            gap: 2em;
+          }
+          .super-sub-2 {
+            display: flex;
+            gap: 3em;
+          }
+        }
+        .sub-3 {
+          display: flex;
+          gap: 1em;
+          button {
+            padding: 1em 1.7em 1em 1.7em;
+            align-items: center;
+            display: flex;
+            border-radius: 6px;
+            font-size: 1.2rem;
+            background-color: #fd683e;
+            border: none;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  

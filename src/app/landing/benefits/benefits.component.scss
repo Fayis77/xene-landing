@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    height: 120vh;
+    background-color: #F7F7F7;
+    
+    h1{
+        line-height: 2em;
+        font-weight: 200;
+    }
+    .btn{
+        padding: 0.8em 1.8em 0.8em 1.8em;
+        border: 2px solid rgb(10, 210, 210);
+        background: white;
+        color: rgb(10, 210, 210) ;
+        border-radius: 6px;
+        font-size: 1rem;
+        &:hover{
+            color: orangered;
+            border: 2px solid orangered;
+        }
+    }
+  
+    
+
+    .box-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        .arrow{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            left: 42em;
+            top: -1.5em;
+            .buy{
+                font-size: 2rem;
+                font-weight: 700;
+                color: #4A4A4A;
+            }
+            
+           
+   
+       }
+        .sub-box-2{
+            gap: 2em;
+            flex-direction: column;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            position: relative;
+        
+           
+            .buy{
+                font-size: 2rem;
+                font-weight: 700;
+                color: #4A4A4A;
+            }
+
+        }
+      
+        
+    }
+    .box-2{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        .arrow{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            left: 3em;
+            top: 2em;
+            .buy{
+                font-size: 2rem;
+                font-weight: 700;
+                color: #4A4A4A;
+            }
+        }
+        .sub-box-1{
+            gap: 2em;
+            flex-direction: column;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            position: relative;
+            
+           
+            
+
+        }
+       
+    }
+}
